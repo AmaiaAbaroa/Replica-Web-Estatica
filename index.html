@@ -1,33 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"/>
-    <link rel="stylesheet" href="./css/Header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <title>Replica Web Estatica</title>
-</head>
+  </head>
 
-<body>
-    <!-- HEADER -->
+  <body>
+    <!-- NAV BAR -->
     <header>
-        <!-- NAV BAR -->
-        <nav>
-            <ul">
-                <img src="./images/logo.svg" alt="Logo Sync Barra de navegación" />
-                <li>DESCRIPTION</li>
-                <li>FEATURES</li>
-                <li>SCREEN</li>
-                <li>EXTRA</li>
-                <input id="Nav_Button" type="button" value="Download" alt="Botón Download" />
-            </ul>
-        </nav>
-        <!-- /NAV BAR -->
+      <nav>
+        <img src="./images/logo.svg" alt="Logo Sync Barra de navegación" />
+        <ul>
+          <li><a href="#">DESCRIPTION</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">SCREEN</a></li>
+          <li><a href="#">EXTRA</a></li>
+          <img
+            class="nav_down_arrow"
+            src="./images/down-arrow.png"
+            alt="Down arrow"
+          />
+          <button class="nav_btn">DOWNLOAD</button>
+        </ul>
+      </nav>
+      <!-- /NAV BAR -->
+      <!-- HEADER -->
+      <div class="header_tittle">
+        <h1>Mobile App Langing Page</h1>
+        <p class="header_subtittle">
+          50 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cumque
+          soluta cupiditate reiciendis officiis cum repudiandae facere
+          necessitatibus? Totam eius voluptatem saepe ipsam tempore quia commodi
+          asperiores quis quo rerum!
+        </p>
+        <div class="header_buttons">
+          <button class="header_btn" type="button">
+            <img src="./images/icons8-mac-os-30.png" />DOWNLOAD
+          </button>
+
+          <button class="header_btn" type="button">
+            <img src="./images/icons8-google-play-30.png" />DOWNLOAD
+          </button>
+        </div>
+      </div>
     </header>
     <!-- /HEADER -->
-</body>
-
+    <!-- MAIN -->
+    <main>
+      <!-- BANNER IMG IPHONE -->
+      <section id="banner">
+        <img src="./images/header-iphone.png" alt="Iphone App Sync" />
+      </section>
+      <!-- /BANNER IMG IPHONE -->
+      <!-- /BAJO BANNER CIRCULOS -->
+      <section>
+        <div id="banner_bajo">
+          <div class="banner_bajo_circulo">
+            <img
+              src="./images/decorative-blue-circle.svg"
+              alt="Circulo morado"
+            />
+            <i
+              class="fa-solid fa-users"
+              style="color: #8c69dd"
+              alt="Icono Usuarios"
+            ></i>
+          </div>
+        </div>
+      </section>
+      <!-- /BAJO BANNER CIRCULOS -->
+    </main>
+    <!-- /HEADER -->
+  </body>
 </html>
