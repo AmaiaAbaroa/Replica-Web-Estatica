@@ -3,7 +3,10 @@
 #screens_1{
     width: 100%;
     margin: auto;
-    background-color: brown;
+    background-color: #f4fcf4;
+}
+#screens_1 h2{
+    padding-top: 10%;
 }
 
 .screens_1_boxes{
@@ -13,42 +16,97 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 400px 200px;
     grid-gap: 2%;
-    /*margin: auto;
-    display: grid;
-    grid-auto-rows: 3;
-    grid-gap: .5rem;
-    grid-template-columns: 3;
-    grid-gap: 2px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;*/
-    background-color: aquamarine;
 }
-.box4{
+#screens_1_box_4{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
-
-}
-
-/*.screens_1_box1{
-    width: 25%;
-    height: 100px;
-    display: block;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
     align-items: center;
-    background-color: blue;
+    margin: 0% 10%;
+}
+.screens_1_box_4_logo{
+    width: 20%;
+    margin:2%;
+}
+#screens_1_box_4 img{
+    width: 100%;
+}
+.screens_1_box{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .screens_1_box_stars{
-    width: 50%;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 70%;
+    height: 14%;
+    margin: auto;
+    display: flex;
 }
+
 .screens_1_box_stars img{
     width: 15%;
     margin:auto;
 }
+
+.screens_1_boxes p{
+    font-style: italic;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5rem;
+    color: #7c7c7c;
+}
+.screens_1_boxes h4{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*SCREENS_1*/
+/*SCREENS_2*/
+#screens_2{
+    width: 100%;
+    margin: 5% 0%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #e4ecf3 ;
+}
+.screens_2_statistics{
+    flex-wrap: wrap;
+    width: 10%;
+    height: auto;
+    justify-content: space-evenly;
+    display:flex;
+    flex-flow: column;
+    height: 35vh;
+    margin: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.screens_2_icons{
+    width: 100%;
+    height: 20vh;
+    background-color: #e4ecf3 ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.screens_2_icons img{
+    width: 30%;
+}
+.screens_2_numbers{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: black;
+}
+.screens_2_statistics p{
+    color:#7c7c7c;
+}
+/*/SCREENS_2*/
 /* /PART3 */
