@@ -1,4 +1,11 @@
 /* MAIN */
+*{
+    margin: 0px;
+    padding:0px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 1.5rem;
+    color:  #2f2f30 ;
+}
 
 main{
     width: 80%;
@@ -89,33 +96,35 @@ main{
 }
 /* /MAIN */
 
-/* BANNER PART2*/
-/* BANNER PART2 1. */
+/* PART2*/
+/* DESCRIPTION_1 */
 
-#banner_part2{
+#description_1{
     width: 100%;
     height: 80%;
     display: flex;
     margin-top: 25%;
     justify-content: space-evenly;
 }
-.banner_part2_article1{
+.desription_1_article1{
     display: flex;
     width: 40%;
 }
-.banner_part2_article1 img{
+.description_1_article1 img{
     display: flex;
-    width: 100%;
+    width: 90%;
+    height: 90%;
+    align-self: center;
     justify-content: center;
     align-items: center;
 }
-.banner_part2_article2{
+.description_1_article2{
     width: 40%;
     padding: 5%;
     justify-content: center;
     align-items: center;
 }
-.banner_btn{
+.description_1_btn{
     width: 30%;
     height: 6vh;
     justify-content: center;
@@ -138,47 +147,112 @@ h2{
     text-align: center;
 }
 
-.banner_part2_article2 p{
+.description_1_article2 p{
     margin: 3% 0%;
     font-size: 150%;
     text-align: justify;
     color:  #7c7c7c;
 }
 
-.banner_part2_article2 ul li{
+.description_1_article2 ul li{
+    margin-left: 5%;
     padding: 2% 2%;
     font-size: 150%;
     text-align: justify;
     color: #7c7c7c;
 }
-/* /BANNER PART2 1. */
+/* /DESCRIPTION_1 */
 
-/* BANNER PART2 2. */
-#banner_part2_2{
+/* DESCRIPTION_2 */
+#description_2{
     width: 100%;
     height: 80%;
     display: flex;
     margin-top: 15%;
     justify-content: space-evenly;
+    background-color: #e4ecf3 ;
 }
-.banner_part2_article3{
+.description_2_buttons_top{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /*justify-content: flex-start;*/
+    margin: 8% 0% 10% 2%
+}
+.description_2_btn_top_purple{
+    width: 45%;
+    height: 8vh;
+    margin: 2%;
+    background-color:  #9c68e7 ;
+    color: #e4ecf3;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*display: flex;*/
+}
+.description_2_btn_top_purple img{
+    padding: 0% 4% 1% 5%;
+    width: 15%;
+}
+.description_2_btn_top{
+    width: 45%;
+    height: 8vh;  
+    margin: 2%; 
+    font-size: 1.5rem;
+    background-color: #e4ecf3;
+    color: #7c7c7c;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.description_2_btn_top img{
+    width: 15%;
+}
+.description_2_article3{
     width: 40%;
     padding: 5%;
     justify-content: center;
     align-items: center;
+    display: table-column;
 }
-.banner_part2_article4{
+.description_2_article3 p{
+    margin: 3% 0%;
+    font-size: 150%;
+    text-align: justify;
+    color:  #7c7c7c;
+}
+
+.description_2_article3 ul li{
+    margin-left: 5%;
+    padding: 2% 2%;
+    font-size: 150%;
+    text-align: justify;
+    color: #7c7c7c;
+    list-style-type: square;
+    list-style-image: url('/images/iconos/icon_checkbox.png');
+}
+
+.description_2_article4{
     display: flex;
     width: 40%;
 }
-.banner_part2_article4 img{
+.description_2_article4 img{
     display: flex;
-    width: 100%;
+    width: 90%;
+    height: 80%;
     justify-content: center;
     align-items: center;
+    align-self: center;
+}
+.description_2_buttons_down{
+    margin-top: 5%;
 }
 
-.banner_btn_empty{
+.description_2_btn_empty{
     width: 30%;
     height: 6vh;
     justify-content: center;
@@ -196,6 +270,5 @@ h2{
 }
 
 /* /BANNER PART2 2. */
-/* /BANNER PART2*/
-
+/* /PART2*/
 

@@ -1,0 +1,54 @@
+/* PART3 */
+/* SCREENS_1 */
+#screens_1{
+    width: 100%;
+    margin: auto;
+    background-color: brown;
+}
+
+.screens_1_boxes{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px 200px;
+    grid-gap: 2%;
+    /*margin: auto;
+    display: grid;
+    grid-auto-rows: 3;
+    grid-gap: .5rem;
+    grid-template-columns: 3;
+    grid-gap: 2px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+    background-color: aquamarine;
+}
+.box4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+/*.screens_1_box1{
+    width: 25%;
+    height: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.screens_1_box_stars{
+    width: 50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.screens_1_box_stars img{
+    width: 15%;
+    margin:auto;
+}
+/* /PART3 */

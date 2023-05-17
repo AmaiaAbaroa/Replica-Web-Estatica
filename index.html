@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/screens.css" />
 
     <title>Replica Web Estatica</title>
   </head>
@@ -22,8 +23,8 @@
       <nav>
         <img src="./images/logo.svg" alt="Logo Sync Barra de navegación" />
         <ul>
-          <li><a href="#">DESCRIPTION</a></li>
-          <li><a href="#">FEATURES</a></li>
+          <li><a href="#description_1">DESCRIPTION</a></li>
+          <li><a href="#screens_1">FEATURES</a></li>
           <li><a href="#">SCREEN</a></li>
           <li><a href="#">EXTRA</a></li>
           <img
@@ -31,7 +32,14 @@
             src="./images/iconos/down-arrow.png"
             alt="Down arrow"
           />
-          <button class="nav_btn">DOWNLOAD</button>
+          <!-- <button class="nav_btn" type="button"> -->
+          <a
+            class="nav_btn"
+            target="_blank"
+            href="https://www.rompemosloscodigos.org/?gclid=Cj0KCQiAutyfBhCMARIsAMgcRJTg3_tgEeUPkU0VNWYNibt1Sbpoooh-HSzcCbScfIQWT-IXEavCOI4aAvtWEALw_wcB"
+            >DOWNLOAD</a
+          >
+          <!-- </button> -->
         </ul>
       </nav>
       <!-- /NAV BAR -->
@@ -121,16 +129,16 @@
       </section>
       <!-- /CIRCLE USES -->
     </main>
-    <!-- BANNER PART2 -->
-    <!-- BANNER PART2 1. -->
-    <section id="banner_part2">
-      <article class="banner_part2_article1">
+    <!-- PART2 -->
+    <!-- DESCRIPTION 1. -->
+    <section id="description_1">
+      <article class="descripton_1_article1">
         <img
           src="./images/description-1-app.png"
           alt="Captura de Pantalla 'My Picks' and 'My Favs'"
         />
       </article>
-      <article class="banner_part2_article2">
+      <article class="description_1_article2">
         <h2>Organize Your Time And Starts Getting Results</h2>
         <p>
           40 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -144,13 +152,33 @@
           <li type="square">Lorem ipsum dolor, sit amet consectetur</li>
           <li type="square">Lorem ipsum dolor, sit amet consectetur</li>
         </ul>
-        <button class="banner_btn" type="button">LIGHTBOX</button>
+        <button class="description_1_btn" type="button">LIGHTBOX</button>
       </article>
     </section>
     <!-- /BANNER PART2 1.-->
     <!-- BANNER PART2 2.-->
-    <section id="banner_part2_2">
-      <article class="banner_part2_article3">
+    <section id="description_2">
+      <article class="description_2_article3">
+        <div class="description_2_buttons_top">
+          <button class="description_2_btn_top_purple" type="button">
+            <img
+              src="./images/iconos/icon_clock.png"
+              alt="Icono Reloj"
+            />Schedule
+          </button>
+          <button class="description_2_btn_top" type="button">
+            <img
+              src="./images/iconos/icon_tracking.png"
+              alt="Icono Listado"
+            />Tracking
+          </button>
+          <button class="description_2_btn_top" type="button">
+            <img
+              src="./images/iconos/icon_calendar.png"
+              alt="Icono Calendario"
+            />Organize
+          </button>
+        </div>
         <p>
           <b>Schedule tasks</b> to keep rack of their completion. Sync provides
           multiple scheduling option including alarms and reminders.
@@ -162,23 +190,76 @@
             in your calendar view or the app control panel
           </li>
           <li>
-            It&aposs easy to stay focused on your most important daily
-            activities that will get you closer to meeting your goals
+            It´s easy to stay focused on your most important daily activities
+            that will get you closer to meeting your goals
           </li>
-          <li></li>
+          <li>
+            Use phone reminders to free up your long term memory which will
+            reduce stress and make you more productive.
+          </li>
         </ul>
-        <button class="banner_btn" type="button">TERMS</button>
-        <button class="banner_btn_empty" type="button">PRIVACY</button>
+        <div class="description_2_buttons_down">
+          <button class="description_1_btn" type="button">TERMS</button>
+          <button class="description_2_btn_empty" type="button">PRIVACY</button>
+        </div>
       </article>
-      <article class="banner_part2_article4">
+      <article class="description_2_article4">
         <img
           src="./images/description-2-app.png"
           alt="Captura de Pantalla 'Calendario'"
         />
       </article>
     </section>
-    <!-- BANNER PART2 2.-->
-    <!-- /BANNER PART2 -->
-    <!-- /HEADER -->
+    <!-- /BANNER PART2 2-->
+    <!-- /PART2 2.-->
+    <!-- PART3 -->
+    <!-- SCREEN_1_BOXES -->
+    <section id="screens_1">
+      <div class="screens_1_boxes">
+        <!-- <div class="screens_1_box1">
+              <div class="screens_1_box_stars">
+                <img
+                  src="./images/iconos/icon_estar_svg.svg"
+                  alt="Icono Estrela"
+                />
+                <img
+                  src="./images/iconos/icon_estar_svg.svg"
+                  alt="Icono Estrela"
+                />
+                <img
+                  src="./images/iconos/icon_estar_svg.svg"
+                  alt="Icono Estrela"
+                />
+                <img
+                  src="./images/iconos/icon_estar_svg.svg"
+                  alt="Icono Estrela"
+                />
+                <img
+                  src="./images/iconos/icon_estar_svg.svg"
+                  alt="Icono Estrela"
+                />
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Impedit quibusdam laborum quae sint delectus incidunt laudantium
+                molestiae cum saepe. Quibusdam!
+              </p>
+              <h4>Rick Jones - Designer</h4>
+            </div> -->
+
+        <div style="background-color: aqua">One</div>
+        <div style="background-color: blue">Two</div>
+        <div style="background-color: rgb(145, 60, 181)">Three</div>
+        <div class="box4" style="background-color: rgb(220, 107, 215)">
+          Four
+        </div>
+        <div style="background-color: rgb(255, 132, 0)">Five</div>
+        <div style="background-color: rgb(223, 37, 37)">Six</div>
+        <div style="background-color: rgb(87, 223, 37)">Six</div>
+      </div>
+    </section>
+    <!-- /SCREEN_1_BOXES -->
+    <!-- /PART3 -->
+    <!-- /MAIN -->
   </body>
 </html>

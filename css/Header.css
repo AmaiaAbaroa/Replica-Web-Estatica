@@ -50,13 +50,24 @@ img.nav_down_arrow{
     border-radius: 2rem;
     border: 0.5vh #fc546c solid;
     padding: 1% 3%;
-    background-color:  #f3fbfb ;
-    color: #fc546c; 
+    /*background-color:  #f3fbfb;
+    color: #fc546c;*/ 
     font-size: 1.5rem;
     font-weight: bold;
     justify-content: center;
+    text-decoration: none;
+    color:#fc546c;
 }
+/*.nav_btn a{
+    text-decoration: none;
+    color:#fc546c;
+}*/
 
+.nav_btn:hover{
+    background-color: #fc546c;
+    color:#f3fbfb;
+    border: 1px solid #31a4a4 ;
+}
 nav ul li a{
     text-decoration: none;
     list-style: none;
