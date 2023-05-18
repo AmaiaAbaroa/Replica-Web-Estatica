@@ -8,8 +8,11 @@
 }
 
 main{
-    width: 80%;
-    margin: -15% 10%;
+    width: 100%;
+}
+#main_picture{
+    margin: auto;
+    width: 70%;
 }
 
 #main_picture img{
@@ -18,8 +21,10 @@ main{
 }
 
 #main_uses{
-    margin-top: 10%;
+    width: 80%;
+    margin:auto;
     height: auto;
+    padding-top: 5%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -27,15 +32,16 @@ main{
 }
 #main_uses p{
     margin-top: 10%;
+    padding-top: 5%;
 }
 .main_uses_circles{
-    flex-wrap: wrap;
     width: 20%;
     height: auto;
-    justify-content: space-evenly;
     display:flex;
-    flex-flow: column;
-    height: 35vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
     margin: 2%;
     font-size: 1.5rem;
     font-weight: bold;
@@ -55,7 +61,7 @@ main{
 .circles img{
     /*padding: 30%;*/
     /*width: 10%;*/
-    width: 60%;
+    width: 30%;
    /* align-content: center;
     justify-content: center;*/
     margin: 25% 10%;
@@ -64,35 +70,31 @@ main{
 #circle_purple{
     background-color: #e3d2fa ;
     border-radius: 50%;
-    width: 100%;
-    /*height: 70%;*/
+    width: 70%;
 }
 
 #circle_green{
     background-color: #dbede7 ;
     border-radius: 50%;
-   /* width: 100%;
-    height: 25vh;*/
+    width: 70%;
 }
 
 #circle_orange{
     background-color:  #f9a2a7;
     border-radius: 50%;
-    /*width: 100%;
-    height: 25vh;*/
+    width: 70%;
+    width: 70%;
 }
 
 #circle_yellow{
     background-color:  #fbf3dc ;
     border-radius: 50%;
-    /*width: 100%;
-    height: 25vh;*/
+    width: 70%;
 }
 #circle_blue{
     background-color: #e4f3fb ;
     border-radius: 50%;
-    /*width: 100%;
-    height: 25vh;*/
+    width: 70%;
 }
 /* /MAIN */
 
@@ -103,10 +105,10 @@ main{
     width: 100%;
     height: 80%;
     display: flex;
-    margin-top: 25%;
+    margin-top: 10%;
     justify-content: space-evenly;
 }
-.desCription_1_article1{
+.description_1_article1{
     display: flex;
     width: 40%;
 }
@@ -168,7 +170,7 @@ h2{
     width: 100%;
     height: 80%;
     display: flex;
-    margin-top: 15%;
+    margin-top: 10%;
     justify-content: space-evenly;
     background-color: #e4ecf3 ;
 }

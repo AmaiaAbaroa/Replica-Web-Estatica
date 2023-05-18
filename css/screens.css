@@ -91,22 +91,125 @@
 }
 .screens_2_icons{
     width: 100%;
-    height: 20vh;
     background-color: #e4ecf3 ;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 .screens_2_icons img{
-    width: 30%;
+    width: 50%;
+}
+.screens_2_statistics p{
+    color:#7c7c7c;
 }
 .screens_2_numbers{
     font-size: 4rem;
     font-weight: bolder;
     color: black;
 }
-.screens_2_statistics p{
-    color:#7c7c7c;
-}
 /*/SCREENS_2*/
+
 /* /PART3 */
+
+/*SCREENS_3*/
+/*SCREENS_3_ARTICLE_1*/
+#screens_3{
+    width: 100%;
+    margin: 10% 0%;
+    background-color: #f4fcf4;
+}
+
+#screens_3_pictures{
+    width: 80%;
+    margin: auto;
+}
+
+#screens_3_iphone{
+    width: 100%;
+    height: auto;
+}
+#screens_3_white_circle_1{
+    position: absolute;
+    width: 30%;
+    z-index: 1;
+    margin: -20% 0% 80% -25%;
+}
+#screens_3_white_circle_1 img{
+    width: 100%;
+}
+#screens_3_blue_circle{
+    position: absolute;
+    width: 7%;
+    z-index: 3;
+    margin:-38% 0% 0% 76%;
+}
+#screens_3_blue_circle img{
+    width: 100%;
+}/*
+#screens_3_white_circle_2{
+    position: absolute;
+    width: 30%;
+    z-index: 1;
+    margin: -50% 0% 0% 80%;
+}
+#screens_3_white_circle_2 img{
+    width: 100%;
+} */
+#screens_3_yellow_circle{
+    position: absolute;
+    width: 3%;
+    z-index: 3;
+    margin: -3% 0% 0% 4%;
+}
+#screens_3_yellow_circle img{
+    width: 100%;
+}
+#screens_3_green_diamond{
+    position: absolute;
+    width: 2%;
+    z-index: 3;
+    margin:-56% 0% 0% 65%;
+}
+#screens_3_green_diamond img{
+    width: 100%;
+}
+/*/SCREENS_3_ARTICLE_1*/
+/*SCREENS_3_ARTICLE_2*/
+#screens_3_text{
+    width:80%;
+    margin: auto;
+    padding-top: 5%;
+}
+#screens_3_text p{
+    font-size: 1.9rem;
+    text-align: center;
+    color:  #7c7c7c;
+}
+#screens_3_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+}
+.screens_3_btn{
+    width: 45%;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    /*margin: 0 5%;
+    padding: 10% 20%;*/
+    border-radius: 2rem;
+    border: none;
+    background-color:  #fc546c ;
+    color: #f3fbfb ; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-flex;
+}
+.screens_3_btn img{
+    padding: 5%;
+}
+/*/SCREENS_3_ARTICLE_2*/
+/*/SCREENS_3*/
