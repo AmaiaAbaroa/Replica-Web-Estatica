@@ -251,7 +251,18 @@ h1{
 
 /*RESPONSIVE*/
 @media(max-width:768px){
-    
+    header{
+        width:100%
+    }
+    .header_yellow_circle{
+        display: none;
+    }
+    .header_green_diamond{
+        display:none
+    }
+    .header_blue_circle{
+        display: none;
+    }
     nav{
         width: 100%;
         padding: 3% 5% 1%;
