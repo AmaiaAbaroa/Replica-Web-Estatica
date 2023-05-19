@@ -198,8 +198,6 @@
     height: 7vh;
     justify-content: center;
     align-items: center;
-    /*margin: 0 5%;
-    padding: 10% 20%;*/
     border-radius: 2rem;
     border: none;
     background-color:  #fc546c ;
@@ -207,9 +205,17 @@
     font-size: 1.5rem;
     font-weight: bold;
     display: inline-flex;
+    transition:0.2s
 }
 .screens_3_btn img{
     padding: 5%;
+}
+.screens_3_btn:hover{
+    background-color: #fc546c ;
+    color:#e4ecf3;
+    border: 1px solid #e4ecf3;
+    box-shadow: 0 0 20px #fc546c , 0 0 50px #fc546c , 0 0 20px #fc546c ;
+    transition-delay: 0.5s;
 }
 /*/SCREENS_3_ARTICLE_2*/
 /*/SCREENS_3*/
@@ -258,3 +264,69 @@
         margin: 2%;
     }
 }
+
+/*ANIMACIÓN IMAGEN IPHONE*/
+
+#screens_3_iphone:hover {
+	-webkit-animation: img_iphone 0.8s reverse backwards;
+	        animation: img_iphone 0.8s reverse backwards;
+}
+
+@-webkit-keyframes img_iphone {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes img_iphone {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }

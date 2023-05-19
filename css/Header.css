@@ -76,6 +76,7 @@ img.nav_down_arrow{
     font-weight: bold;
     justify-content: center;
     color:#fc546c;
+    transition: 0.2s;
 }
 .nav_btn a{
     padding: 1% 1%;
@@ -87,9 +88,12 @@ img.nav_down_arrow{
     background-color: #fc546c;
     color:#f3fbfb;
     border: 1px solid #f3fbfb ;
-}
+    box-shadow: 0 0 20px #f33e59, 0 0 50px #f33e59, 0 0 20px #f33e59;
+    transition-delay: 0.5s;
+    }
 .nav_btn a:hover{
     color:#f3fbfb;
+    z-index: 10;
 }
 nav ul li a{
     text-decoration: none;
@@ -202,9 +206,16 @@ h1{
     font-size: 1.5rem;
     font-weight: bold;
     display: inline-flex;
+    overflow:hidden;
+    transition:0.2s;
 }
 .header_btn img{
     padding: 5%;
+}
+.header_btn:hover{
+    background-color: #f33e59;
+    box-shadow: 0 0 20px #f33e59, 0 0 50px #f33e59, 0 0 20px #f33e59;
+    transition-delay: 0.5s;
 }
 .header_white_circle_1{
     position: absolute;
@@ -313,3 +324,72 @@ h1{
         margin-top: 3%;
     }
 }
+
+
+/*ANIMACIÓN IMAGEN IPHONE*/
+
+#main_picture:hover {
+	-webkit-animation: img_iphone 0.8s reverse backwards;
+	        animation: img_iphone 0.8s reverse backwards;
+}
+
+@-webkit-keyframes img_iphone {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes img_iphone {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+
+
