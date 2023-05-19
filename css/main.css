@@ -9,6 +9,8 @@
 
 main{
     width: 100%;
+    padding: 5%;
+
 }
 #main_picture{
     margin: auto;
@@ -105,6 +107,7 @@ main{
     width: 100%;
     height: 80%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10%;
     justify-content: space-evenly;
 }
@@ -170,6 +173,7 @@ h2{
     width: 100%;
     height: 80%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10%;
     justify-content: space-evenly;
     background-color: #e4ecf3 ;
@@ -274,3 +278,80 @@ h2{
 /* /BANNER PART2 2. */
 /* /PART2*/
 
+/*RESPONSIVE*/
+@media(max-width:768px){
+    #main_uses{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin:auto;
+    }
+    #main_uses{
+        height: 40%;
+    }
+    .main_uses_circles{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin:auto;
+        width:60%;
+        padding: 5%;
+    }
+    #description_1{
+        display: block;
+        margin: auto;
+    }
+    .description_1_article1{
+        width: 80%;
+        margin: auto;
+        padding: 20% 0%;
+    }
+    .description_1_article1 img{
+        width: 100%;
+    }
+    .description_1_article2{
+        width: 80%;
+        margin: auto;
+        padding: 20% 0%;
+    }
+    .description_1_btn{
+        font-size: 1rem;
+        width: 40%;
+    }
+    #description_2{
+        display: block;
+        margin: auto;
+        padding: 5% 1%;
+    }
+    .description_2_article3{
+        display: block;
+        width: 70%;
+        margin: auto;
+        padding-right: -5%;
+        padding-top: 5%;
+    }
+    .description_2_buttons_top{
+        display: block;
+        width: 100%;
+    }
+    .description_2_btn_top_purple{
+        font-size: 1.2rem;
+    }
+    .description_2_btn_top{
+        font-size: 1.2rem;
+    }
+    .description_2_btn_empty{
+        font-size: 1rem;
+        width: 40%;
+    }
+    .description_2_article4{
+        width: 100%;
+        margin: auto;
+        padding: 20% 0%;
+    }
+    .description_2_article4 img{
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -213,3 +213,48 @@
 }
 /*/SCREENS_3_ARTICLE_2*/
 /*/SCREENS_3*/
+
+/*RESPONSIVE*/
+@media(max-width:768px){
+    .screens_1_boxes{
+        grid-template-columns:repeat(3, 1fr);
+        grid-auto-rows: 600px 300px;
+        padding: 5% 0% 10% 0%;
+    }
+    .screens_1_box_4_logo{
+        width: 45%;
+    }
+    #screens_2{
+        padding: 10% 0%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .screens_2_statistics{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin:auto;
+        width:30%;
+        height: 50%;
+        padding: 3%;
+    }
+    .screens_2_icons{
+        width: 90%;
+    }
+    #screens_3{
+        display: block;
+        padding: 5% 0%;
+    }
+    #screens_3_text p{
+        font-size:1.5rem;
+        padding-top: 10%;
+    }
+    #screens_3_buttons{
+        width: 90%;
+    }
+    .screens_3_btn{
+        font-size: 1rem;
+        width: 100%;
+        margin: 2%;
+    }
+}
